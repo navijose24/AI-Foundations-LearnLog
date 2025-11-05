@@ -61,30 +61,29 @@ It blends **theory, code, and visual intuition**, built to strengthen both **GAT
 - Choosing the best hypothesis  
 
 ---
-
-## 📂 Repository Structure  
+## 📂 Repository Structure
 
 AI-Foundations-LearnLog/
 │
 ├── Introduction_to_AI/
-│   ├── Notes.md
-│   └── Applications_AI.ipynb
+│ ├── Notes.md
+│ └── Applications_AI.ipynb
 │
 ├── Problem_Solving_Search/
-│   ├── Search_Algorithms.ipynb
-│   └── Heuristic_Strategies.ipynb
+│ ├── Search_Algorithms.ipynb
+│ └── Heuristic_Strategies.ipynb
 │
 ├── Complex_Environments/
-│   ├── Minimax_AlphaBeta.ipynb
-│   └── CSP_Solutions.ipynb
+│ ├── Minimax_AlphaBeta.ipynb
+│ └── CSP_Solutions.ipynb
 │
 ├── Knowledge_Representation/
-│   ├── Logic_Agents.ipynb
-│   └── Inference_Methods.ipynb
+│ ├── Logic_Agents.ipynb
+│ └── Inference_Methods.ipynb
 │
 ├── Machine_Learning/
-│   ├── DecisionTrees.ipynb
-│   └── LinearModels.ipynb
+│ ├── DecisionTrees.ipynb
+│ └── LinearModels.ipynb
 │
 └── README.md
 ---
