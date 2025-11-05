@@ -63,6 +63,7 @@ It blends **theory, code, and visual intuition**, built to strengthen both **GAT
 ---
 ## 📂 Repository Structure
 
+```
 AI-Foundations-LearnLog/
 │
 ├── Introduction_to_AI/
@@ -86,6 +87,7 @@ AI-Foundations-LearnLog/
 │ └── LinearModels.ipynb
 │
 └── README.md
+```
 ---
 
 ## ⚙️ Tech Stack  
