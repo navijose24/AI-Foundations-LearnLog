@@ -1,5 +1,3 @@
-
-```
 # 🧠 Artificial Intelligence Foundations – LearnLog  
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
@@ -65,7 +63,6 @@ It blends **theory, code, and visual intuition**, built to strengthen both **GAT
 ---
 
 ## 📂 Repository Structure  
-```
 
 AI-Foundations-LearnLog/
 │
@@ -90,9 +87,6 @@ AI-Foundations-LearnLog/
 │   └── LinearModels.ipynb
 │
 └── README.md
-
-```
-
 ---
 
 ## ⚙️ Tech Stack  
