@@ -17,6 +17,15 @@ Solution: search for a path without missing areas or getting stuck
 
 ---
 
+**Measuring problem-solving performance**
+• Completeness: Is a solution found if one exists?
+• Optimality: Does the strategy find the optimal solution?
+• Time Complexity: How long does it take to find a solution?
+• Space Complexity: How much memory is needed to perform the
+search?
+
+---
+
 ## 🧩 2️⃣ Example Problems
 
 AI problems often use small puzzles to test search strategies.
