@@ -53,6 +53,13 @@ History of AI
         2025->Agentic AI
 
 
+APPROACHES TO AI
+    1.Thinking Humanly
+    2.Thinking rationally
+    3.Acting Humanly
+    4.Acting rationally
+
+
 Applications of AI
     Healthcare (diagnosis, drug discovery)
     Finance (fraud detection, trading)
@@ -63,18 +70,59 @@ Applications of AI
 
 
 Intelligent Agents 
+    Intelligence:Ability of a system to calculate,reason,perceive relationships and analogies,learn from experience,solve problems,  comprehend complex ideas,classify, generalize, adapt new situations.
     An agent = system that perceives (via sensors) and acts (via actuators).
+    Intelligent Agents:autonomous entity which act upon an environment using sensors and actuators for achieving goals.
+    rules:
+    1.ability to perceive the enviornment
+    2.decision must be based on observation
+    3.decision results in action
+    4.action must be rational.
     🌀 Example:
     Self-driving car → sensors (cameras, lidar) → agent → actuators (steering, brakes).
 
 
-Agents and Environments
+Nature of Environments
+    Every agent works inside an environment, which can differ in nature:
+
+    | Type                     | Meaning                           | Example                           |
+    | ------------------------ | --------------------------------- | --------------------------------- |
+    | **Fully observable**     | Agent can see everything          | Chess game                        |
+    | **Partially observable** | Limited info                      | Self-driving car (fog, obstacles) |
+    | **Deterministic**        | Actions have predictable outcomes | Solving a math equation           |
+    | **Stochastic**           | Outcomes have randomness          | Poker game                        |
+    | **Static**               | Doesn’t change while agent thinks | Crossword puzzle                  |
+    | **Dynamic**              | Keeps changing                    | Real-time driving                 |
+    | **Discrete**             | Finite actions                    | Chess                             |
+    | **Continuous**           | Infinite possibilities            | Driving, painting robot           |
 
 
 Good behavior: The concept of rationality
+    An agent’s job is to act rationally — that means: Taking the action that maximizes its expected performance, based on current knowledge.
+    💬 Example:
+    A chess AI doesn’t just move any piece; it chooses the move that gives it the best chance to win.
+    Key terms:
+    Performance measure: How success is judged (e.g., wins in chess, fuel efficiency in cars).
+    Rationality: Depends on what the agent knows, observes, and can do.
 
-
-Nature of Environments
+PEAS Representation
+    • PEAS is a type of model on which an AI agent works upon.
+    P -> performence measure
+    E -> environment
+    A -> actuators
+    S -> sensors
 
 
 Structure of Agents
+    Agent = Architecture + Program
+    Architecture → the hardware (like sensors & actuators)
+    Agent Function → Agent function is used to map a percept to an action.
+                        f: P* → A
+    Program → the brain or logic that decides actions
+
+
+Types of agents:
+    Simple Reflex Agent – acts only on current input
+    Model-based Reflex Agent – remembers past info
+    Goal-based Agent – acts to reach goals
+    Utility-based Agent – chooses most satisfying outcome
