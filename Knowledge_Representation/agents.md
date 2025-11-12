@@ -37,3 +37,44 @@ Imagine a vacuum-cleaner robot:
 * Robotic planning and decision-making.
 
 ---
+
+### Knowledge-Base
+
+ > A Knowledge-Based Agent is an intelligent agent that uses logical reasoning over a knowledge base to decide its actions. The algorithm uses the TELL and ASK operations to update and query the knowledge base.
+
+
+---
+
+### 🧩 **Algorithm (in words + meaning)**
+
+```text
+function KB-Agent(percept) returns an action
+    static: KB, a knowledge base
+            t, a counter (time step, initially 0)
+    TELL(KB, MAKE-PERCEPT-SENTENCE(percept, t))
+    action ← ASK(KB, MAKE-ACTION-QUERY(t))
+    TELL(KB, MAKE-ACTION-SENTENCE(action, t))
+    t ← t + 1
+    return action
+```
+
+---
+
+### 🧠 **Concept Summary:**
+
+* **TELL:** Add new facts.
+* **ASK:** Query the KB to derive conclusions.
+* **Action:** The agent’s decision based on logical reasoning.
+* **KB-Agent** = *Think → Decide → Learn → Repeat.*
+
+---
+
+### 🪄 **Example (vacuum world):**
+
+* Percept: “Room A is dirty.”
+* TELL(KB, “Dirty(A)”)
+* ASK(KB, “What should I do?”) → KB says “Clean(A)”
+* TELL(KB, “Action=Clean(A)”)
+* Executes “Clean(A)”
+
+---
