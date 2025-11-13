@@ -67,24 +67,35 @@ It blends **theory, code, and visual intuition**, built to strengthen both **GAT
 AI-Foundations-LearnLog/
 │
 ├── Introduction_to_AI/
-│ ├── Notes.md
-│ └── Applications_AI.ipynb
+│   ├── Basics.md
+│   └── intro.md
 │
 ├── Problem_Solving_Search/
-│ ├── Search_Algorithms.ipynb
-│ └── Heuristic_Strategies.ipynb
+│   ├── Problem-solving_agents.md
+│   ├── prblms_in_ai.md
+│   ├── heuristic_function.md
+│   ├── searching_stratagies.md
+│   └── images/              # visual assets used by notes
 │
 ├── Complex_Environments/
-│ ├── Minimax_AlphaBeta.ipynb
-│ └── CSP_Solutions.ipynb
+│   ├── intro.md
+│   ├── min_max_algo.md
+│   ├── Alpha–Beta_Pruning.md
+│   ├── Backtracking_search_or_CSPs.md
+│   ├── Constraint_Propagation.md
+│   ├── structure_of_csp.md
+│   └── csp.md
 │
 ├── Knowledge_Representation/
-│ ├── Logic_Agents.ipynb
-│ └── Inference_Methods.ipynb
+│   ├── Propositional_Logic.md
+│   ├── fol.md
+│   ├── MGU.md
+│   ├── resolution_fol.md
+│   ├── Wumpus_World.md
+│   └── agents.md
 │
 ├── Machine_Learning/
-│ ├── DecisionTrees.ipynb
-│ └── LinearModels.ipynb
+│   └── all_in_one_go.md
 │
 └── README.md
 ```
